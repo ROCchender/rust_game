@@ -1,0 +1,10 @@
+[package]
+name = "rust_game_logic"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+name = "rust_game_logic"
+crate-type = ["cdylib"]  # 编译为 .dll/.so/.dylib
+
+[dependencies]
